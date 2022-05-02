@@ -1,0 +1,5 @@
+{
+  "externals":[],
+  "entry":[],
+  "prerequisite":["constellation-core.76f4047b.js"]
+}
