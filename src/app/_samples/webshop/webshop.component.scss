@@ -1,3 +1,68 @@
+@import "../../_shared/styles.scss";
+
 .banner {
     background-color: #0096cb;
+    display:flex;
+    justify-content:space-between;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
+.logo {
+    display: block;
+    float: left;
+    width: 75px;
+    height: 75px;
+    margin-top: 20px;
+  }
+
+  .progress-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 99999;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+.progress-spinner {
+    text-align: center;
+}
+
+.example-container {
+    min-height: 100%;
+    height: 100%;
+  }
+
+
+  .psdk-aside {
+      height: calc(100% - 64px);
+      width: 12.5rem;
+      border-right: 1px solid lightgray;
+  }
+
+  .psdk-main {
+      height: calc(100% - 64px);
+      width: calc(100% - 12.5rem);
+  }
+
+  .mc-main {
+    display: flex; 
+    height: calc(100% - 100px);
+    top: 100px;
+    position: relative;
+  }
+
+  .mc-icon {
+    padding: 0px 10px 0px 20px;
+    font-size: 60px;
+    height: 80px;
+    width: 60px;
+  }
+

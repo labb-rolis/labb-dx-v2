@@ -35,6 +35,11 @@
                 "output": "./assets"
               },
               {
+                "glob": "labb-icon.svg",
+                "input": "./src/assets",
+                "output": "./assets"
+              },
+              {
                 "glob": "sdk-config.json",
                 "input": "./",
                 "output": "./"
@@ -67,7 +72,8 @@
             ],
             "styles": [
               "./node_modules/intl-tel-input/build/css/intlTelInput.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/labb-palette.scss"
             ],
             "scripts": [],
             "customWebpackConfig": {

@@ -1,0 +1,14 @@
+
+<div class="mc-main-div">
+    <div *ngIf="showPega$">
+        <div class="mc-info">
+            <div class="mc-info-pega">
+                <app-root-container [pConn$]="pConn$" [displayOnlyFA$]="true" [isMashup$]="true"></app-root-container>
+            </div>
+        </div>
+        
+    </div>
+    <div *ngIf="showResolution$">
+        <app-resolution-screen></app-resolution-screen>
+    </div>
+</div>

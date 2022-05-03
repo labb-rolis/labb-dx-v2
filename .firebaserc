@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "labb-dx-v2": {
+      "hosting": {
+        "angularsdk": [
+          "labb-dx-v2"
+        ]
+      }
+    }
+  }
+}

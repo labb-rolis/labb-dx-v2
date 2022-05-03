@@ -132,6 +132,7 @@ import { OneColumnTabComponent } from './_components/_templates/one-column-tab/o
 import { AuthService } from './_services/auth.service';
 import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
 import { WebshopComponent } from './_samples/webshop/webshop.component';
+import { WebshopContentComponent } from './_samples/webshop-content/webshop-content.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -221,7 +222,8 @@ import { WebshopComponent } from './_samples/webshop/webshop.component';
     SimpleTableComponent,
     ReferenceComponent,
     OneColumnTabComponent,
-    WebshopComponent
+    WebshopComponent,
+    WebshopContentComponent
   ],
   imports: [
     BrowserModule,

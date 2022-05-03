@@ -1,0 +1,74 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+  $labb-blue: (
+    50 : #e0f2f9,
+    100 : #b3e0ef,
+    200 : #80cbe5,
+    300 : #4db6db,
+    400 : #26a6d3,
+    500 : #0096cb,
+    600 : #008ec6,
+    700 : #0083be,
+    800 : #0079b8,
+    900 : #0068ac,
+    A100 : #d5ecff,
+    A200 : #a2d5ff,
+    A400 : #6fbeff,
+    A700 : #56b2ff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$labb-orange: (
+  50: #fff3e0,
+  100: #ffe0b2,
+  200: #ffcc80,
+  300: #ffb74d,
+  400: #ffa726,
+  500: #ff9800,
+  600: #fb8c00,
+  700: #f57c00,
+  800: #ef6c00,
+  900: #e65100,
+  A100: #ffd180,
+  A200: #ffab40,
+  A400: #ff9100,
+  A700: #ff6d00,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $dark-primary-text,
+    400: $dark-primary-text,
+    500: $dark-primary-text,
+    600: $dark-primary-text,
+    700: $dark-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $dark-primary-text,
+    A400: $dark-primary-text,
+    A700: black,
+  )
+);
+
+$labb-app-primary: mat-palette($labb-blue);
+$labb-app-accent:  mat-palette($labb-blue);
+$labb-app-warn:    mat-palette($labb-orange);
+$labb-app-theme: mat-light-theme($labb-app-primary, $labb-app-accent, $labb-app-warn);
+@include angular-material-theme($labb-app-theme);
