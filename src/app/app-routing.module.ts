@@ -4,6 +4,7 @@ import { TopAppComponent } from './_components/top-app/top-app.component';
 import { TopAppMashupComponent } from './_samples/full-portal/top-app-mashup/top-app-mashup.component';
 import { NavigationComponent } from "./_samples/simple-portal/navigation/navigation.component";
 import { MCNavComponent } from "./_samples/mashup/mc-nav/mc-nav.component";
+import { WebshopComponent } from "./_samples/webshop/webshop.component";
 import { endpoints } from './_services/endpoints';
 
 
@@ -31,6 +32,8 @@ const routes: Routes = [
   { path: endpoints.EMBEDDEDHTML, component: MCNavComponent },
   { path: endpoints.MASHUP, component:MCNavComponent},
   { path: endpoints.MASHUPHTML, component: MCNavComponent },
+  { path: endpoints.WEBSHOP, component: WebshopComponent },
+  { path: endpoints.WEBSHOPHTML, component: WebshopComponent },
   { path: `prweb/app/${appName}`, component: TopAppComponent }
 ];
 

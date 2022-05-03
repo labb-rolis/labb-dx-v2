@@ -1,14 +1,14 @@
 
-$app-primary-color: #673ab7;
-$app-primary-dark-color: #4527A0;
-$app-primary-light-color: #B499FC;
-$app-secondary-color: #FFC400;
+$app-primary-color: #0096cb;
+$app-primary-dark-color: #0096cb;
+$app-primary-light-color: #0096cb;
+$app-secondary-color: #ececec;
 $app-neutral-color: grey;
-$app-neutral-light-color: lightgrey;
+$app-neutral-light-color: #ececec;
 $app-neutral-dark-color: #262626;
 
 $app-background-color: whitesmoke;
-$app-form-color: white;
+$app-form-color: #ececec;
 
 // svg filter colors that match above, go here to generate https://codepen.io/sosuke/pen/Pjoqqp
 $app-primary-color-filter: invert(23%) sepia(23%) saturate(6785%) hue-rotate(250deg) brightness(93%) contrast(88%);

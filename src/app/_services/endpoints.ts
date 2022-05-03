@@ -62,5 +62,7 @@ export const endpoints = {
     PORTAL: "portal",
     PORTALHMTL: "portal.html",
     FULLPORTAL: "fullportal",
-    FULLPORTALHTML: "fullportal.html"
+    FULLPORTALHTML: "fullportal.html",
+    WEBSHOP: "webshop",
+    WEBSHOPHTML: "webshop.html"
   };
